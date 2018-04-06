@@ -1,0 +1,56 @@
+body {
+   background-image: url(../images/ep_naturalwhite.png);
+}
+
+body, html {
+   height: 100%;
+}
+
+nav {
+   position: fixed;
+   top: 0;
+   left: 0;
+   z-index: 1;
+}
+
+.container1 {
+   position: relative;
+   top: 64px;
+}
+
+.brand-logo {
+   background: #4aaaa5;
+}
+
+#nav-mobile li a{
+   color: darkgray !important;
+}
+
+.links {
+   display: -webkit-inline-box;
+}
+
+.connect-li {
+   margin-right: 2.5%;
+}
+
+.card-content {
+   text-align: center;
+}
+
+.page-footer {
+   padding: 0;
+   background-color: #4aaaa5;
+}
+
+footer {
+   background: #4aaaa5;
+   position: fixed;
+   bottom: 0;
+   width: 100%;
+}
+
+.no-padding {
+   padding: 0;
+   margin-bottom: 0;
+}
