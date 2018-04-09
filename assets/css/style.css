@@ -33,9 +33,9 @@ nav {
    color: darkgray !important;
 }
 
-/* .showcase {
-   min-height: 261px;
-} */
+.minHeight {
+   min-height: 250px !important;
+}
 
 .links {
    display: -webkit-inline-box;
@@ -47,6 +47,10 @@ nav {
 
 .card a {
    z-index: 0;
+}
+
+#philosophy {
+   margin-bottom: 20px;
 }
 
 .card-content {
