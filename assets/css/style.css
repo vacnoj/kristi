@@ -18,8 +18,15 @@ nav {
    top: 64px;
 }
 
+.down25 {
+   position: relative;
+   top: 25%;
+}
+
 .brand-logo {
    background: #4aaaa5;
+   padding: 0px 10px !important;
+   /* margin-left: 10%; */
 }
 
 #nav-mobile li a{
@@ -53,4 +60,33 @@ footer {
 .no-padding {
    padding: 0;
    margin-bottom: 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+   font-family: fantasy;
+}
+
+p {
+   font-family: sans-serif;
+}
+
+@media only screen and (max-width: 460px) {
+   a {
+    padding: 0 10px !important;
+   }
+}
+@media only screen and (max-width: 420px) {
+   a {
+    padding: 0 5px !important;
+   }
+}
+@media only screen and (max-width: 400px) {
+   nav ul a {
+    font-size: .8em !important;
+   }
+}
+@media only screen and (max-width: 360px) {
+   a {
+    font-size: .8em !important;
+   }
 }
