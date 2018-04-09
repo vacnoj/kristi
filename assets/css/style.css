@@ -57,6 +57,10 @@ nav {
    text-align: center;
 }
 
+.material-icons {
+   color: black;
+}
+
 .page-footer {
    padding: 0;
    background-color: #4aaaa5;
