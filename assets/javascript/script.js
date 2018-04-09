@@ -1,7 +1,11 @@
 $('document').ready(function() {
    console.log("Page Loaded");
 
-   $('.modal').modal();
+   $('.modal').modal({
+      complete: function() {
+      location.reload();
+      }
+   });
 
    $('.tabs').tabs();
 
@@ -12,5 +16,7 @@ $('document').ready(function() {
       $(e.target).addClass("active");
       console.log(e.target);
    });
+
+
 
 });
