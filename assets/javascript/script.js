@@ -5,6 +5,8 @@ $('document').ready(function() {
 
    $('.tabs').tabs();
 
+   $('.materialboxed').materialbox();
+
    $('.nav-tabs').click(function(e) {
       event.preventDefault();
       $(e.target).addClass("active");

@@ -33,12 +33,20 @@ nav {
    color: darkgray !important;
 }
 
+/* .showcase {
+   min-height: 261px;
+} */
+
 .links {
    display: -webkit-inline-box;
 }
 
 .connect-li {
    margin-right: 2.5%;
+}
+
+.card a {
+   z-index: 0;
 }
 
 .card-content {
